@@ -1,0 +1,131 @@
+html,
+body {
+    height: 100%;
+    color: #777;
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    background-color: #37474F;
+    padding: 14px;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.container {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.row {
+    margin-bottom: 28px;
+    margin-top: 14px;
+}
+
+.row > div {
+    padding-top: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.navbar-perso {
+    visibility: hidden;
+    position: fixed;
+    z-index: 9000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 100ms, box-shadow 100ms;
+}
+
+.coloured {
+    background-color: #E0E0E0;
+    color: #777;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+}
+
+.navbar-perso > div {
+    height: 56px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 100ms;
+}
+
+.navbar-perso > div:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-perso > div > a {
+    text-decoration: none;
+    color: #777;
+}
+
+.bg-img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url(assets/big-data-background.png);
+    min-height: 100%;
+}
+
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7 {
+    min-height: 400px;
+}
+
+.img-2 {
+    background-image: url(assets/big-data-background-2-min.jpg);
+}
+
+.img-3 {
+    background-image: url(assets/big-data-background-3-min.jpg);
+}
+
+.img-4 {
+    background-image: url(assets/big-data-background-4-min.jpg);
+}
+
+.img-5 {
+    background-image: url(assets/big-data-background-5-min.jpg);
+}
+
+.img-6 {
+    background-image: url(assets/big-data-background-6-min.jpg);
+}
+
+.img-7 {
+    background-image: url(assets/big-data-background-7-min.jpg);
+}
