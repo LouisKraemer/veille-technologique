@@ -1,13 +1,13 @@
 $(document).ready(_ => {
     if ($(window).scrollTop() != 0) {
-        $('.navbar-perso').css('visibility', 'visible');
+        $('.navbar-perso').css('top', 0);
     }
 
     $(document).scroll(_ => {
         if ($(window).scrollTop() >= 1) {
-            $('.navbar-perso').css('visibility', 'visible');
+            $('.navbar-perso').css('top', 0);
         } else {
-            $('.navbar-perso').css('visibility', 'hidden');
+            $('.navbar-perso').css('top', -56);
         }
     })
 
