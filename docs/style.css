@@ -58,11 +58,11 @@ h5 {
     display: flex;
     flex-direction: row;
     transition: top 250ms;
-/*    transition: background-color 100ms, box-shadow 100ms;*/
+    /*    transition: background-color 100ms, box-shadow 100ms;*/
 }
 
 .coloured {
-/*    background-color: #E0E0E0;*/
+    /*    background-color: #E0E0E0;*/
     background-color: #607D8B;
     color: white;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
@@ -129,4 +129,24 @@ h5 {
 
 .img-7 {
     background-image: url(assets/big-data-background-7-min.jpg);
+}
+
+table {
+    text-align: center;
+}
+
+td,
+th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tr:nth-child(even) {
+    color: white;
+    background-color: #3F51B5;
+}
+
+.attribute {
+    font-style: italic;
+    font-weight: bold;
 }
